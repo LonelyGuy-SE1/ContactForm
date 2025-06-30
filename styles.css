@@ -1,34 +1,31 @@
-/* Page layout and background */
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #87cefa, #e0ffff); /* Nice blue gradient */
+  background: linear-gradient(to right, #87cefa, #e0ffff); 
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* Form card container */
 .form-container {
   background-color: white;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   width: 90%;
-  max-width: 400px; /* Responsive upper limit */
+  max-width: 400px; 
   box-sizing: border-box;
 }
 
-/* Heading */
 h2 {
   text-align: center;
   margin-bottom: 20px;
   color: #333;
 }
 
-/* Labels */
 label {
   display: block;
   margin-bottom: 5px;
@@ -37,7 +34,6 @@ label {
   text-align: left;
 }
 
-/* Input and textarea fields */
 input,
 textarea {
   width: 100%;
@@ -49,7 +45,7 @@ textarea {
   font-size: 14px;
 }
 
-/* Submit button */
+
 button {
   width: 100%;
   padding: 10px;
@@ -61,7 +57,6 @@ button {
   cursor: pointer;
 }
 
-/* Button hover effect */
 button:hover {
   background-color: #45a049;
 }
